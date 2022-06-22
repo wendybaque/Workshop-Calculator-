@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 5rem auto;
+  font-style: italic;
+}
+
+table {
+  margin: auto;
+  min-width: 350px;
+  min-height: 350px;
+  border: 1px solid gray;
+  border-radius: 1rem;
+}
+
+tr {
+  padding: 2%;
+}
+
+td {
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 1rem;
+}
+
+td:hover {
+  box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.result {
+  height: 20%;
+}
+
+.msg {
+  text-align: center;
+  color: green;
+}

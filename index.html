@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Workshop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ma calculatrice</h1>
+  <main>
+    <table>
+      <tr>
+        <td colspan="4" class="result" id="result"></td>
+      </tr>
+      <tr>
+        <td onclick="addValue('7')">7</td>
+        <td onclick="addValue('8')">8</td>
+        <td onclick="addValue('9')">9</td>
+        <td onclick="addOperator('+')">+</td>
+      </tr>
+      <tr>
+        <td onclick="addValue('4')">4</td>
+        <td onclick="addValue('5')">5</td>
+        <td onclick="addValue('6')">6</td>
+        <td onclick="addOperator('-')">-</td>
+      </tr>
+      <tr>
+        <td onclick="addValue('1')">1</td>
+        <td onclick="addValue('2')">2</td>
+        <td onclick="addValue('3')">3</td>
+        <td onclick="addOperator('/')">/</td>
+      </tr>
+      <tr>
+        <td onclick="addValue('0')">0</td>
+        <td onclick="calcul()">=</td>
+        <td onclick="fullReset()">C</td>
+        <td onclick="addOperator('*')">*</td>
+      </tr>
+    </table>
+    <p class="msg" id="msg">blabla</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

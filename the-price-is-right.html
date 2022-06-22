@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <script>
+        const playerName = prompt("What's your name ? ");
+
+        const number = Math.floor(Math.random() * 100) + 1;
+        let userValue = parseInt(prompt("Store a random number between 1 and 100."));
+
+        while (userValue !== number){
+            if (userValue > number){
+                console.log("C'est moins");
+                windowprompt("C'est moins");
+            } else {
+                console.log("C'est plus");
+                window.prompt("C'est plus");
+            }
+            userValue = parseInt(prompt("Store a number"));
+    }
+    console.log(playerName + "wins !");
+    // ou console.log(`${playerUser} wins`);
+
+    </script>
+</body>
+</html>

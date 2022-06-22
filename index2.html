@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Calculator de la mort qui tue !</h1>
+    <script>
+  
+      const firstValue = parseInt(prompt("entre un nombre :"));
+      const operator = prompt("entre un opérateur de calcul");
+      const secondValue = parseInt(prompt("entre un deuxième nombre :"));
+  
+    // if (operator === "+") {
+      //console.log(firstValue + secondValue);
+    //}
+    //else {
+      //console.log(firstValue - secondValue);
+    //}
+    
+  function testOperator(operator) {
+  switch (operator) {
+      case "+":
+        console.log(firstValue + secondValue);
+          break;
+      case "-":
+        console.log(firstValue - secondValue);
+          break;
+      case "*":
+        console.log(firstValue * secondValue);
+          break;
+      case "/":
+        console.log(firstValue / secondValue);
+          break;
+      default: 
+        console.log("opérateur invalide");
+  }
+}
+
+testOperator(operator);
+  
+    </script>
+</body>
+</html>
