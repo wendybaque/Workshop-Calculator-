@@ -3,13 +3,16 @@ h1 {
   font-size: 3rem;
   margin: 5rem auto;
   font-style: italic;
+  color:lightskyblue;
+  font-family: 'Potta One', cursive;
 }
 
 table {
+  font-family: 'Potta One', cursive;
   margin: auto;
-  min-width: 350px;
-  min-height: 350px;
-  border: 1px solid gray;
+  min-width: 500px;
+  min-height: 500px;
+  border: 2px solid gray;
   border-radius: 1rem;
 }
 
